@@ -67,32 +67,11 @@
    </head>
 <body>
 <div class="info">
-<h2>entrada_salida_cond.sikuli</h2> <a href="entrada_salida_cond.zip">(Download this script)</a>
+<h2>entrada_salida.sikuli</h2> <a href="entrada_salida.zip">(Download this script)</a>
 </div>
 <pre class="sikuli-code">
 nombre = <span class="skw">input</span>(<span class="str">"Dime tu nombre"</span>)
 <span class="skw">popup</span>(<span class="str">"Hola "</span> + nombre + <span class="str">"!"</span>)
-
-<span class="skw">click</span>(<img src="1504457636494.png" />)
-<span class="skw">wait</span>(<img src="1504457677792.png" />)
-<span class="skw">type</span>(<span class="str">"Calculator"</span>+Key.ENTER)
-<span class="skw">wait</span>(<img src="1504459379659.png" />)
-<span class="skw">click</span>(Pattern(<img src="1504459379659.png" />).targetOffset(-<span class="dig">81</span>,<span class="dig">19</span>))
-
-operaciones = [<span class="str">"Sumar"</span>, <span class="str">"Restar"</span>, <span class="str">"Multiplicar"</span>, <span class="str">"Dividir"</span>]
-opcion = select(<span class="str">"Vamos a: "</span>, options=operaciones)
-<span class="kw">if</span> (opcion == operaciones[<span class="dig">0</span>]):
-    <span class="skw">click</span>(Pattern(<img src="1504459379659.png" />).targetOffset(<span class="dig">21</span>,<span class="dig">52</span>))
-<span class="kw">elif</span> (opcion == operaciones[<span class="dig">1</span>]):
-    <span class="skw">click</span>(Pattern(<img src="1504459379659.png" />).targetOffset(<span class="dig">28</span>,<span class="dig">19</span>))
-<span class="kw">elif</span> (opcion == operaciones[<span class="dig">2</span>]):
-    <span class="skw">click</span>(Pattern(<img src="1504459379659.png" />).targetOffset(<span class="dig">30</span>,-<span class="dig">14</span>))
-<span class="kw">else</span>:
-    <span class="skw">click</span>(Pattern(<img src="1504459379659.png" />).targetOffset(<span class="dig">27</span>,-<span class="dig">51</span>))
-
-<span class="skw">click</span>(Pattern(<img src="1504459379659.png" />).targetOffset(-<span class="dig">81</span>,<span class="dig">19</span>))
-<span class="skw">click</span>(Pattern(<img src="1504459379659.png" />).targetOffset(<span class="dig">108</span>,<span class="dig">54</span>))
-
 <span class="skw">sleep</span>(<span class="dig">5</span>)
 </pre>
 </body>
