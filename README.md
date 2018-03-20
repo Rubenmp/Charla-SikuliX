@@ -7,4 +7,4 @@ Para esta presentación no será necesario ni tener instalado SikuliX ni traer o
 
 # Ejemplo
 
-![Ejemplo](./ejemplo.mp4 "Ejemplo SikuliX")
+![Ejemplo](./ejemplo.gif "Ejemplo SikuliX")
